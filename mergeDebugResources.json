@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_hair4.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/hair4.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_sus_kose_solda.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/sus_kose_solda.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_logo.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/logo.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xhdpi_ic_launcher_background.xml.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xhdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_hair2.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/hair2.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-anydpi-v26_ic_launcher_background.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-anydpi-v26/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_sus_orta_alt.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/sus_orta_alt.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_hair1.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/hair1.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/mipmap-anydpi-v26_ic_launcher.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/mipmap-anydpi-v26/ic_launcher.png"
+    },
+    {
+        "merged": "com.yourdomain.kuaforhatirlatici.app-debug-4:/drawable_sus_kose_sagda.png.flat",
+        "source": "com.yourdomain.kuaforhatirlatici.app-main-6:/drawable/sus_kose_sagda.png"
+    }
+]
