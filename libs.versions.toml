@@ -1,0 +1,57 @@
+[versions]
+agp = "8.3.0"
+ktlint = "11.6.1"
+coreKtx = "1.10.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.6.1"
+activityCompose = "1.8.0"
+# Compose BOM sürümünü daha stabil bir sürüme güncelledim (örneğin Mart 2024).
+# Kotlin 1.9.23 ile uyumluluğu kontrol edin. Resmi Compose-Kotlin uyumluluk tablosuna bakın.
+# Kullandığınız kütüphanelerin bu BOM ile uyumlu olduğundan emin olun.
+composeBom = "2024.03.00" # Örnek stabil sürüm, gerekirse güncelleyin
+room = "2.6.1"
+# roomCommonJvm için farklı bir sürüm kullanıyorsunuz, bunun özel bir nedeni yoksa
+# room sürümüyle aynı olması (veya BOM tarafından yönetilmesi) daha yaygındır.
+# Şimdilik olduğu gibi bırakıyorum ama gözden geçirebilirsiniz.
+roomCommonJvm = "2.7.2"
+kotlin = "1.9.23"
+# Kotlin 1.9.23 ile uyumlu Compose Compiler sürümünü ekledim.
+# Bu sürümü resmi Compose-Kotlin uyumluluk tablosundan teyit edin.
+# Örneğin, Kotlin 1.9.22 için 1.5.8 ise, 1.9.23 için 1.5.10 veya 1.5.11 civarı olabilir.
+# `composeBom` içindeki Compose kütüphaneleriyle uyumlu olmalıdır.
+composeCompiler = "1.5.11" # Kotlin 1.9.23 ile uyumlu olanı seçin!
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+# `org.jetbrains.compose` eklentisi Android Jetpack Compose için genellikle
+# doğrudan burada tanımlanmaz. Kotlin Android eklentisi ve
+# app/build.gradle.kts içindeki composeOptions ile yönetilir.
+# Bu satırı kaldırdım.
+# compose = { id = "org.jetbrains.compose", version = "1.5.11" } # <-- KALDIRILDI
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }

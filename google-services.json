@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767515745887",
+    "project_id": "kuaforhatirlatici",
+    "storage_bucket": "kuaforhatirlatici.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767515745887:android:a376604648558b0eeec5ea",
+        "android_client_info": {
+          "package_name": "com.kendihikayeni.sekillendir.kuaforhatirlatici"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7_I2uN7K5j5LW9SBi-Y0UgSHf1Jbsis0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
